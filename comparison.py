@@ -1,10 +1,10 @@
 import face_recognition
 from PIL import Image, ImageDraw
 
-image1 = face_recognition.load_image_file('predict/Multiple/you_and_krause.jpeg')
+image1 = face_recognition.load_image_file('path_to_image1')
 image1_face_locations = face_recognition.face_locations(image1)
 
-image2 = face_recognition.load_image_file('train\\Dan_Gilbert\\gty_691347576.jpg')
+image2 = face_recognition.load_image_file('path_to_image2')
 image2_face_locations = face_recognition.face_locations(image2)
 
 pil_image1 = Image.fromarray(image1)

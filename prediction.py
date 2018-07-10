@@ -24,7 +24,7 @@ import os
 knn_clf = joblib.load('knn.sav')
 distance_threshold = 0.5
 
-dir = 'Intern01'
+dir = 'dir'
 
 for img_path in image_files_in_folder(dir):
     print(img_path)

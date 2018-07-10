@@ -22,20 +22,8 @@ import numpy as np
 knn_clf = joblib.load('knn.sav')
 distance_threshold = 0.5
 
-# new_image_path = 'predict/Dave_Schroeder/Dave_Schroeder (13).jpg'
-# new_image_path = 'predict/Tim_Birkmeier/Tim_Birkmeier (4).jpg'
-# new_image_path = 'predict/Heather_Lovier/Heather_Lovier (10).jpg'
-# new_image_path = 'predict/Mike_Malloy/Mike_Malloy (11).jpg'
-# new_image_path = 'predict/None/bill_emerson.jpg'
-# new_image_path = 'predict/None/guy01.jpeg'
-# new_image_path = 'predict/Tim_Birkmeier/tim01.jpeg'
-# new_image_path = 'predict/Multiple/you_and_krause.jpeg'
-# new_image_path = 'predict/Multiple/testing2.jpg'
-# new_image_path = 'predict/Tim_Birkmeier/tim02.jpeg'
-# new_image_path = 'predict/Linglong_He/Linglong001.jpeg'
-# new_image_path = 'predict/None/bt.jpg'
-# new_image_path = 'predict/None/js.jpg'
-new_image_path = 'Intern01/InternClosingEvent-20161201-041.jpg'
+
+new_image_path = 'path_to_image'
 
 new_image = face_recognition.load_image_file(new_image_path)
 
